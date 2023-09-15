@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\D.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\D.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\DEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\D">
+      <UniqueIdentifier>{6D924D3C-256C-326C-9DAC-7D76EE804BCF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\D\D.Build.cs">
+      <Filter>Source\D</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\D\D.cpp">
+      <Filter>Source\D</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\D\D.h">
+      <Filter>Source\D</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\D\DCharacter.cpp">
+      <Filter>Source\D</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\D\DCharacter.h">
+      <Filter>Source\D</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\D\DGameMode.cpp">
+      <Filter>Source\D</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\D\DGameMode.h">
+      <Filter>Source\D</Filter>
+    </ClInclude>
+    <Filter Include="Source\D\Private">
+      <UniqueIdentifier>{D1836780-8BA8-31F3-8010-E95FC1953EBD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\D\Private\Animation">
+      <UniqueIdentifier>{D0CB09CF-4697-36CB-A009-4F85E9E9E599}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\D\Private\Animation\CppAnimInstance.cpp">
+      <Filter>Source\D\Private\Animation</Filter>
+    </ClCompile>
+    <Filter Include="Source\D\Public">
+      <UniqueIdentifier>{DDFFD09E-ECF0-387F-B4AF-3E3945B7A865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\D\Public\Animation">
+      <UniqueIdentifier>{F5FF9CE4-4F44-3D8C-8479-69C6E6CE19F6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\D\Public\Animation\CppAnimInstance.h">
+      <Filter>Source\D\Public\Animation</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

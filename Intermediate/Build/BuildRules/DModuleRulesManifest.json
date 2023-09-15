@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\UnrealProject\\D\\Source\\D\\D.Build.cs",
+		"E:\\UnrealProject\\D\\Source\\D.Target.cs",
+		"E:\\UnrealProject\\D\\Source\\DEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.0"
+}
